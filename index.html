@@ -6,41 +6,34 @@
     <title>Home</title>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">MathForYou</a>
+        <a class="navbar-brand" href="./index.html">MathForYou</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a style="text-decoration: underline;" class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+                <a class="nav-link active" aria-current="page" href="./aboutus/aboutus.html">About us</a>
             </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./service/sevice.html">service</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./news/news.html">News</a>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contact/contact.html">Contact</a>
+            </li>
+            <a aria-current="page" href="https://tbcbank.ge/ka/tbc-education">
+                <img src="./images/tbc-logo.png" class="tbc" alt="tbs">
             </a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
         </ul>
         <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
@@ -54,6 +47,7 @@
 
     <div id="main">
         <p>Step-by-Step Lessons for Every Level!</p>
+        <img id="logo" src="./images/math_icons_no_background.png" alt="logo">
     </div>
     <h1 id="course">Courses</h1>
     <div class="container">
@@ -81,37 +75,77 @@
             <h2>Math helps us understand the world. With every number, formula, and shape, we unlock a new way to think and solve problems.</h2>
             <button>buy now</button>
         </div>
+        <div class="card">
+            <div class="square">
+                <img src="./images/calculus.jpg" alt="Algebra">
+            </div>
+            <p>Calculus</p>
+            <h2>Calculus is a branch of mathematics focused on continuous change. It uses two main operations: differentiation and integration.</h2>
+            <button>buy now</button>
+        </div>
+        <div class="card">
+            <div class="square">
+                <img src="./images/trigonometry.jpg" alt="Algebra">
+            </div>
+            <p>Trigonometry</p>
+            <h2>Trigonometry is a branch of mathematics focused on the relationships between the angles and sides of triangles, particularly right triangles.</h2>
+            <button>buy now</button>
+        </div>
+        <div class="card">
+            <div class="square">
+                <img src="./images/Number-Theory.png" alt="Algebra">
+            </div>
+            <p>Number Theory</p>
+            <h2>AI Overview Number theory is a branch of pure mathematics devoted to the study of integers and the relationships between them.</h2>
+            <button>buy now</button>
+        </div>
+        <div class="card">
+            <div class="square">
+                <img src="./images/Interactive Diagrams.jpg" alt="Algebra">
+            </div>
+            <p>Interactive Diagrams</p>
+            <h2>Diagrams are visual and schematic representations of information. The objective of a diagram is to simplify, Processes, timelines, workflows, and systems.</h2>
+            <button>buy now</button>
+        </div>
+        <div class="card">
+            <div class="square">
+                <img src="./images/Math.jpg" alt="Algebra">
+            </div>
+            <p>Formula Sheet</p>
+            <h2>Formula Sheet Page is a special section on your website that shows important math formulas organized by topic super useful for students.</h2>
+            <button>buy now</button>
+        </div>
     </div>
     <h2 id="about">About us</h2>
     <p id="text-about">At MathForYou, we are dedicated to making mathematics accessible and engaging for learners at every level.Our goal is to provide clear, structured, and high-quality math resources that support both students and educators. Whether you're reviewing basic concepts or tackling advanced topics, you'll find step-by-step lessons, interactive exercises, and practical examples designed to build confidence and understanding.We believe that everyone can succeed in math with the right guidance and tools — and we're here to provide just that.</p>
     <h3 id="quation">FAQs</h3>
     <div class="quations1">
         <div>
-            <i class="fa fa-bullhorn"></i>
+            <i id="f1" class="fa fa-bullhorn"></i>
         </div>
         <p>What topics can I learn on this website?</p>
-        <button class="glyphicon glyphicon-plus"></button> 
+        <i id="s1" style="font-size:24px" class="fa">&#xf196;</i>
     </div>
     <div class="quations2">
         <div>
-            <i class="fa fa-bullhorn"></i>
+            <i id="f1" class="fa fa-bullhorn"></i>
         </div>
         <p>Is this website free to use?</p>
-        <button class="glyphicon glyphicon-plus"></button> 
+        <i id="s1" style="font-size:24px" class="fa">&#xf196;</i>
     </div>
     <div class="quations3">
         <div>
-            <i class="fa fa-bullhorn"></i>
+            <i id="f1" class="fa fa-bullhorn"></i>
         </div>
         <p>What level of math is this for?</p>
-        <button class="glyphicon glyphicon-plus"></button> 
+        <i id="s1" style="font-size:24px" class="fa">&#xf196;</i>
     </div>
     <div class="quations4">
         <div>
-            <i class="fa fa-bullhorn"></i>
+            <i id="f1" class="fa fa-bullhorn"></i>
         </div>
         <p>What level of math is this for?</p>
-        <button class="glyphicon glyphicon-plus"></button> 
+        <i id="s1" style="font-size:24px" class="fa">&#xf196;</i>
     </div>
     <footer>
         <div class="top">

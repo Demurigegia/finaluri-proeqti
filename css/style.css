@@ -51,8 +51,29 @@ table {
   transform: scale(1.1);
 }
 
+#logo:hover {
+  transform: scale(1.1);
+}
+
 body {
   background-color: #e0ecf7 !important;
+}
+
+.navbar-brand {
+  color: blue !important;
+  border: 1px solid blue;
+}
+
+.nav-link {
+  font-weight: 700 !important;
+  color: rgb(40, 40, 143) !important;
+  margin-left: 10px;
+}
+
+.tbc {
+  width: 50px;
+  height: auto;
+  margin-left: 10px;
 }
 
 img {
@@ -63,21 +84,23 @@ img {
 #main {
   width: 100%;
   height: 800px;
+  display: flex;
+  justify-content: space-between;
   background-image: url(../images/MAthBanner_v022x.original.png);
   background-position-y: center;
   background-position-x: right;
 }
 #main p {
-  width: 35%;
   color: white;
-  font-size: 30px;
-  font-weight: 700;
-  padding-top: 350px;
+  font-size: 100px;
+  font-weight: 900;
+  padding-top: 160px;
   padding-left: 50px;
 }
-
-.container-fluid {
-  background-color: #0f8299 !important;
+#main img {
+  width: 800px;
+  height: 750px;
+  margin-top: 14px;
 }
 
 #course {
@@ -94,7 +117,7 @@ img {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 33px;
 }
 .container .card {
@@ -128,6 +151,7 @@ img {
 .container .card button {
   width: 100px;
   margin-left: 150px;
+  border-radius: 5px;
 }
 
 #about {
@@ -158,7 +182,7 @@ img {
   flex-direction: row;
   margin-top: 88px;
 }
-.quations1 i {
+.quations1 #f1 {
   border: solid 1px black;
   margin-left: 60px;
 }
@@ -166,10 +190,10 @@ img {
   font-weight: 700;
   margin-left: 15px;
 }
-.quations1 button {
+.quations1 #s1 {
   size: 50px;
   vertical-align: middle;
-  margin-left: 782px;
+  margin-left: 778px;
 }
 
 .quations2 {
@@ -177,7 +201,7 @@ img {
   flex-direction: row;
   margin-top: 49px;
 }
-.quations2 i {
+.quations2 #f1 {
   border: solid 1px black;
   margin-left: 60px;
 }
@@ -185,10 +209,10 @@ img {
   font-weight: 700;
   margin-left: 15px;
 }
-.quations2 button {
+.quations2 #s1 {
   size: 50px;
   vertical-align: middle;
-  margin-left: 869px;
+  margin-left: 879px;
 }
 
 .quations3 {
@@ -196,7 +220,7 @@ img {
   flex-direction: row;
   margin-top: 49px;
 }
-.quations3 i {
+.quations3 #f1 {
   border: solid 1px black;
   margin-left: 60px;
 }
@@ -204,10 +228,10 @@ img {
   font-weight: 700;
   margin-left: 15px;
 }
-.quations3 button {
+.quations3 #s1 {
   size: 50px;
   vertical-align: middle;
-  margin-left: 849px;
+  margin-left: 853px;
 }
 
 .quations4 {
@@ -215,7 +239,7 @@ img {
   flex-direction: row;
   margin-top: 49px;
 }
-.quations4 i {
+.quations4 #f1 {
   border: solid 1px black;
   margin-left: 60px;
 }
@@ -223,10 +247,10 @@ img {
   font-weight: 700;
   margin-left: 15px;
 }
-.quations4 button {
+.quations4 #s1 {
   size: 50px;
   vertical-align: middle;
-  margin-left: 848px;
+  margin-left: 854px;
 }
 
 footer {
@@ -359,7 +383,6 @@ footer {
 .last {
   display: flex;
   justify-content: center;
-  margin-top: 33px;
   margin-bottom: 50px;
 }
 .last p {
