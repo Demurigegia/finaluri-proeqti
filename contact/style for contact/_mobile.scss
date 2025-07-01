@@ -1,0 +1,22 @@
+#newform {
+    display: flex;
+    flex-direction: column;
+}
+.right {
+    align-items: center;
+}
+footer {
+    height: 725px;
+}
+.first {
+    flex-direction: column;
+    width: 500px;
+    margin-left: 20px;
+    .middle {
+        margin-top: 20px;
+    }
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+}

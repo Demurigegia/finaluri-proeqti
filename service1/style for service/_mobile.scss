@@ -1,0 +1,49 @@
+#first {
+    margin-left: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    .lef {
+        width: 300px;
+        button {
+            width: 280px;
+        }
+    }
+    .mid1 {
+        width: 300px;
+        button {
+            width: 260px;
+        }
+        .inside {
+            width: 287px;
+        }
+    }
+    .righ {
+        width: 300px;
+        button {
+            width: 280px;
+        }
+    }
+
+}
+footer {
+    height: 725px;
+}
+.first {
+    flex-direction: column;
+    width: 500px;
+    margin-left: 20px;
+    .middle {
+        margin-top: 20px;
+    }
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.last {
+    padding-top: 20px;
+}

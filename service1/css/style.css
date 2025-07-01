@@ -371,7 +371,7 @@ img {
   margin-bottom: 30px;
 }
 .last4 .div1 {
-  width: 70%;
+  width: 1200px;
   height: 60px;
   background-color: white;
   padding-left: 20px;
@@ -384,8 +384,8 @@ img {
   color: blue;
 }
 .last4 .div2 {
+  width: 1200px;
   margin-top: 10px;
-  width: 70%;
   height: 60px;
   background-color: white;
   padding-left: 20px;
@@ -398,8 +398,8 @@ img {
   color: blue;
 }
 .last4 .div3 {
+  width: 1200px;
   margin-top: 10px;
-  width: 70%;
   height: 60px;
   background-color: white;
   padding-left: 20px;
@@ -412,8 +412,8 @@ img {
   color: blue;
 }
 .last4 .div4 {
+  width: 1200px;
   margin-top: 10px;
-  width: 70%;
   height: 60px;
   background-color: white;
   padding-left: 20px;
@@ -426,8 +426,8 @@ img {
   color: blue;
 }
 .last4 .div5 {
+  width: 1200px;
   margin-top: 10px;
-  width: 70%;
   height: 60px;
   background-color: white;
   padding-left: 20px;
@@ -578,4 +578,79 @@ footer {
   color: white;
   font-weight: 400;
   font-size: 20px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  #first {
+    margin-left: 20px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .container .lef {
+    width: 300px;
+  }
+  .container .lef button {
+    width: 280px;
+  }
+  .container .mid1 {
+    width: 300px;
+  }
+  .container .mid1 button {
+    width: 260px;
+  }
+  .container .mid1 .inside {
+    width: 287px;
+  }
+  .container .righ {
+    width: 300px;
+  }
+  .container .righ button {
+    width: 280px;
+  }
+  footer {
+    height: 725px;
+  }
+  .first {
+    flex-direction: column;
+    width: 500px;
+    margin-left: 20px;
+  }
+  .first .middle {
+    margin-top: 20px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .last {
+    padding-top: 20px;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  footer {
+    height: 550px;
+  }
+}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1456px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+@media screen and (min-device-width: 0px) and (max-device-width: 320px) {
+  body {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

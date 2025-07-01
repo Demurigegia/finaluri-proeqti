@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="../contact/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -23,18 +24,18 @@
                 <a class="nav-link active" aria-current="page" href="./aboutus/aboutus.html">About us</a>
             </li>
             <li class="nav-item">
-                <a style="text-decoration: underline;" class="nav-link active" aria-current="page" href="#">service</a>
+                <a class="nav-link active" aria-current="page" href="../service1/sevice.html">service</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./news/news.html">News</a>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../contact/index.html">Contact</a>
+                <a style="text-decoration: underline;" class="nav-link active" aria-current="page" href="#">Contact</a>
             </li>
             <a aria-current="page" href="https://tbcbank.ge/ka/tbc-education">
                 <img src="../images/tbc-logo.png" class="tbc" alt="tbs">
             </a>
         </ul>
-        <form class="d-flex" role="search">
+        <form id="oldform" class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
             <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
@@ -43,76 +44,45 @@
     </nav>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
-
-    <h1 id="first">Compare Vip plans and pricing</h1>
-    <div class="container">
-        <div class="lef">
-            <h1>Math Free</h1>
-            <h2>€0.00 /month</h2>
-            <button>Get Math Free</button>
-            <h3> No credit card required</h3>
-            <h4>Security and privacy for everyone</h4>
-            <p>Secure 1 device at a time</p>
-            <p>1 math course free</p>
-            <p>choose 1 on them</p>
-        </div>
-        <div class="mid1">
-            <h1>BEST DEAL</h1>
-            <div class="inside">
-                <div class="box">
-                    <p>55% off</p>
-                </div>
-                <h2>Math Plus</h2>
-                <span class="price">€9.99</span>
-                <h3>€4.49 /month</h3>
-                <h4>Save €132</h4>
-                <button>Get Math Plus</button>
-                <h5> 30-day money-back guarantee</h5>
-                <h6>Why is better Plus</h6>
-                <p>You have all course what yopu want</p>
-                <p>You have this 3month</p>
-                <p>Secure 10 devices at a time</p>
-                <p>Priority support and live chat</p>
-                <p>Block ads, trackers, and malware</p>
-            </div>
-        </div>
-        <div class="righ">
-            <div class="box">
-                <p>55% off</p>
-            </div>
-            <h1>Math Unlimited</h1>
-            <span class="price">€9.99</span>
-            <h2>€7.99 /month</h2>
-            <h3>Save €120</h3>
-            <button>Get Math Unlimited</button>
-            <h4>30-day money-back guarantee</h4>
-            <h5>Access all premium Math products</h5>
-            <p>all what you want</p>
-            <p>Have this 1 year</p>
-            <p>Math calendar</p>
-            <p>Math Mail</p>
-            <p>Math Drive</p>
-        </div>
+    <div class="header">
+        <p>Contact</p>
+        <h1>Contact us to get <br> free support</h1>
     </div>
-    <div class="sxt">
-        <h2>Join over 100 million people who trust MathForYou to keep their data safe</h2>
-    </div>
-    <h1 id="last">Frequently asked questions:</h1>
-    <div class="last4">
-        <div class="div1">
-            <p>Can I try 1 course for free?</p>
+    <form id="newform">
+        <div class="left">
+            <textarea id="textarea" placeholder="Description"></textarea>
         </div>
-        <div class="div2">
-            <p>What payment methods can I use?</p>
+        <div class="right">
+            <input id="input" type="text" placeholder="Subject">
+            <input id="input" type="text" style="margin-top: 20px;" placeholder="Name / Surname">
+            <input id="input" type="text" style="margin-top: 20px;" placeholder="Email">
+            <button id="secondbutton">Send</button>
         </div>
-        <div class="div3">
-            <p>Can I cancel my subscription if Course isn't for me?</p>
+    </form>
+    <div class="contact">
+        <div class="all">
+            <div id="circle">
+                <i style="color: rgb(14, 15, 83);" class="fa fa-envelope"></i>
+            </div>
+            <h2 class="first">Email</h2>
+            <p class="second">learnmath@gmail.com</p>
+            <p class="second">mathisbest@gmail.com</p>
         </div>
-        <div class="div4">
-            <p>Do you offer any discounts?</p>
+        <div class="all">
+            <div id="circle">
+                <i style="color: rgb(14, 15, 83);" class="fa fa-phone"></i>
+            </div>
+            <h2 class="first">Phone</h2>
+            <p class="second">+995 571 30 29 39</p>
+            <p class="second">+995 571 64 62 66</p>
         </div>
-        <div class="div5">
-            <p>What is Math Unlimited?</p>
+        <div class="all">
+            <div id="circle">
+                <i style="color: rgb(14, 15, 83);" class="fa fa-map-marker"></i>
+            </div>
+            <h2 class="first">Location</h2>
+            <p class="second">Georgia,Tbilisi</p>
+            <p class="second">Georgia,Rustavi</p>
         </div>
     </div>
     <footer>

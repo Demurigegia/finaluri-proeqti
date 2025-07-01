@@ -1,9 +1,10 @@
-.container {
+#newform {
     display: flex;
     flex-direction: column;
+}
+.right {
     align-items: center;
-    gap: 10px;
 }
 footer {
-    height: 550px;
+    height: 570px;
 }
