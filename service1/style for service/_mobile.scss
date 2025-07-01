@@ -30,7 +30,7 @@
 
 }
 footer {
-    height: 725px;
+    height: 1150px;
 }
 .first {
     flex-direction: column;
@@ -46,4 +46,19 @@ footer {
 }
 .last {
     padding-top: 20px;
+}
+.mid {
+    flex-direction: column;
+    margin-left: 20px;
+    .m1 {
+        h2 {
+            width: 300px;
+        }
+    }
+}
+.last {
+    margin-left: 20px;
+}
+.sxt {
+    margin-left: 20px;
 }

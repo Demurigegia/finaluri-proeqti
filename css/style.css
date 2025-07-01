@@ -411,8 +411,14 @@ footer {
   .quations4 {
     width: 1150px;
   }
+  #s1 {
+    display: none;
+  }
+  .mid {
+    flex-direction: column;
+  }
   footer {
-    height: 720px;
+    height: 1250px;
   }
   .first {
     flex-direction: column;
@@ -422,8 +428,23 @@ footer {
   .first .middle {
     margin-top: 20px;
   }
-  #s1 {
-    display: none;
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .last {
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+  .mid {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .mid .m1 h2 {
+    width: 300px;
+  }
+  .quations1 p {
+    width: 200px;
   }
 }
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {

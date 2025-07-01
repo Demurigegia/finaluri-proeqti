@@ -20,3 +20,31 @@ footer {
     display: flex;
     flex-direction: column;
 }
+footer {
+    height: 1250px;
+}
+.first {
+    flex-direction: column;
+    width: 500px;
+    margin-left: 20px;
+    .middle {
+        margin-top: 20px;
+    }
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.last {
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.mid {
+    flex-direction: column;
+    margin-left: 20px;
+    .m1 {
+        h2 {
+            width: 300px;
+        }
+    }
+}
