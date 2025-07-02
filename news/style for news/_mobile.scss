@@ -1,0 +1,52 @@
+footer {
+    height: 1230px;
+}
+.first {
+    flex-direction: column;
+    width: 500px;
+    margin-left: 20px;
+    .middle {
+        margin-top: 20px;
+    }
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.last {
+    padding-top: 20px;
+}
+.mid {
+    flex-direction: column;
+    margin-left: 20px;
+    .m1 {
+        h2 {
+            width: 300px;
+        }
+    }
+}
+.last {
+    margin-left: 20px;
+}
+.middle {
+    width: 260px;
+    margin-left: 40px;
+    h2 {
+        width: 250px;
+    }
+}
+.middl {
+    margin-top: 10px;
+}
+.place1 {
+    width: 220px;
+    margin-left: 60px;
+}
+.place2 {
+    width: 220px;
+    margin-left: 60px;
+}
+.place3 {
+    width: 220px;
+    margin-left: 60px;
+}
