@@ -1,0 +1,215 @@
+body {
+    background-color: #e0ecf7 !important;
+}
+.navbar-brand {
+    color: blue !important;
+    border: 1px solid blue;
+}
+.nav-link {
+    font-weight: 700 !important;
+    color: rgb(40, 40, 143) !important;
+    margin-left: 10px;
+}
+.tbc {
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+}
+.mainfirst {
+    width: 100%;
+    height: 600px;
+    background-image: url(../imagesforthis/kiddo.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1 {
+        color: blue;
+        display: flex;
+        justify-content: center;
+        padding-top: 200px;
+        font-weight: 200;
+    }
+    h2 {
+        color: blue;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        font-weight: 700;
+    }
+}
+.secon {
+    width: 100%;
+    height: 500px;
+    background-color: beige;
+    h1 {
+        color: rgb(54, 52, 41);
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-weight: 200;
+    }
+    button {
+        color: white;
+        background-color: red;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 200;
+        border-radius: 10px;
+        font-size: 40px;
+    }
+}
+.thir {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(170, 168, 255);
+    h1 {
+        color: rgb(54, 52, 41);
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-weight: 200;
+    }
+    button {
+        color: white;
+        background-color: red;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 200;
+        border-radius: 10px;
+        font-size: 40px;
+    }
+}
+footer {
+    width: 100%;
+    height: 530px;
+    background-color: black;
+}
+.first{
+    padding-top: 34px;
+    margin-left: 101px;
+    margin-right: 110px;
+    display: flex;
+    justify-content: space-between;
+    .le {
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    .middle {
+        color: white;
+        font-size: large;
+        font-weight: 100;
+    }
+    .ri {
+        p {
+            color: white;
+            font-size: large;
+        }
+    }
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #303030;
+    margin-top: 21px;
+}
+.mid {
+    display: flex;
+    justify-content: space-around;
+    .m1 {
+        flex-direction: column;
+        h1 {
+            size: 28px;
+            color: $maincolor;
+            font-weight: 500;
+            margin-top: 38px;
+        }
+        p {
+            size: 20px;
+            color: $maincolor;
+            font-weight: 500;
+            margin-top: 30px;
+        }
+        input {
+            border-radius: 46px;
+            margin-top: 21px;
+            width: 257px;
+            height: 47px;
+        }
+        button {
+            border-radius: 46px;
+            background-color: rgb(194, 194, 194);
+            width: 148px;
+            height: 47px;
+        }
+        h2 {
+            width: 394px;
+            height: 19px;
+            color: white;
+            font-weight: 500;
+            font-size: 16px;
+            margin-top: 21px;
+        }
+    }
+    .m2 {
+        flex-direction: column;
+        h1 {
+            size: 28px;
+            color: $maincolor;
+            font-weight: 500;
+            margin-top: 38px;
+        }
+        p {
+            size: 20px;
+            color: $maincolor;
+            font-weight: 500;
+            margin-top: 30px;
+        }
+    }
+    .m3 {
+        flex-direction: column;
+        h1 {
+            size: 28px;
+            color: $maincolor;
+            font-weight: 500;
+            margin-top: 38px;
+        }
+        p {
+            size: 20px;
+            color: $maincolor;
+            font-weight: 500;
+            margin-top: 30px;
+        }
+    }
+}
+.mid3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 27px;
+    .l1 {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            color: $maincolor;
+            margin-left: 24px;
+        }
+    }
+    .r2 {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            color: $maincolor;
+            margin-left: 24px;
+        }
+    }
+}
+.last {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    p {
+        color: $maincolor;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}

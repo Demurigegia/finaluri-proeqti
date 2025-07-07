@@ -1,0 +1,292 @@
+#button:hover {
+  background-color: rgb(253, 153, 153);
+}
+
+body {
+  background-color: #e0ecf7 !important;
+}
+
+.navbar-brand {
+  color: blue !important;
+  border: 1px solid blue;
+}
+
+.nav-link {
+  font-weight: 700 !important;
+  color: rgb(40, 40, 143) !important;
+  margin-left: 10px;
+}
+
+.tbc {
+  width: 50px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.mainfirst {
+  width: 100%;
+  height: 600px;
+  background-image: url(../imagesforthis/kiddo.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainfirst h1 {
+  color: blue;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  font-weight: 200;
+}
+.mainfirst h2 {
+  color: blue;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-weight: 700;
+}
+
+.secon {
+  width: 100%;
+  height: 500px;
+  background-color: beige;
+}
+.secon h1 {
+  color: rgb(54, 52, 41);
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: 200;
+}
+.secon button {
+  color: white;
+  background-color: red;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-weight: 200;
+  border-radius: 10px;
+  font-size: 40px;
+}
+
+.thir {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(170, 168, 255);
+}
+.thir h1 {
+  color: rgb(54, 52, 41);
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: 200;
+}
+.thir button {
+  color: white;
+  background-color: red;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-weight: 200;
+  border-radius: 10px;
+  font-size: 40px;
+}
+
+footer {
+  width: 100%;
+  height: 530px;
+  background-color: black;
+}
+
+.first {
+  padding-top: 34px;
+  margin-left: 101px;
+  margin-right: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.first .le img {
+  width: 25px;
+  height: 25px;
+}
+.first .middle {
+  color: white;
+  font-size: large;
+  font-weight: 100;
+}
+.first .ri p {
+  color: white;
+  font-size: large;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #303030;
+  margin-top: 21px;
+}
+
+.mid {
+  display: flex;
+  justify-content: space-around;
+}
+.mid .m1 {
+  flex-direction: column;
+}
+.mid .m1 h1 {
+  size: 28px;
+  color: white;
+  font-weight: 500;
+  margin-top: 38px;
+}
+.mid .m1 p {
+  size: 20px;
+  color: white;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.mid .m1 input {
+  border-radius: 46px;
+  margin-top: 21px;
+  width: 257px;
+  height: 47px;
+}
+.mid .m1 button {
+  border-radius: 46px;
+  background-color: rgb(194, 194, 194);
+  width: 148px;
+  height: 47px;
+}
+.mid .m1 h2 {
+  width: 394px;
+  height: 19px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 21px;
+}
+.mid .m2 {
+  flex-direction: column;
+}
+.mid .m2 h1 {
+  size: 28px;
+  color: white;
+  font-weight: 500;
+  margin-top: 38px;
+}
+.mid .m2 p {
+  size: 20px;
+  color: white;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.mid .m3 {
+  flex-direction: column;
+}
+.mid .m3 h1 {
+  size: 28px;
+  color: white;
+  font-weight: 500;
+  margin-top: 38px;
+}
+.mid .m3 p {
+  size: 20px;
+  color: white;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.mid3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 27px;
+}
+.mid3 .l1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mid3 .l1 p {
+  color: white;
+  margin-left: 24px;
+}
+.mid3 .r2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mid3 .r2 p {
+  color: white;
+  margin-left: 24px;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.last p {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .secon h1 {
+    font-size: 15px;
+  }
+  .thir h1 {
+    font-size: 15px;
+  }
+  footer {
+    height: 1250px;
+  }
+  .first {
+    flex-direction: column;
+    width: 500px;
+  }
+  .first .middle {
+    margin-top: 20px;
+  }
+  .mid {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .mid .m1 h2 {
+    width: 300px;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .secon {
+    height: 600px;
+  }
+  .thir {
+    height: 500px;
+  }
+  footer {
+    height: 1150px;
+  }
+  .first {
+    flex-direction: column;
+    width: 500px;
+    margin-left: 300px;
+  }
+  .first .middle {
+    margin-top: 20px;
+  }
+  .mid {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .mid .m1 h2 {
+    width: 300px;
+  }
+}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1456px) {
+  .secon {
+    height: 550px;
+  }
+  .thir {
+    height: 500px;
+  }
+}
+@media screen and (min-device-width: 0px) and (max-device-width: 320px) {
+  body {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
